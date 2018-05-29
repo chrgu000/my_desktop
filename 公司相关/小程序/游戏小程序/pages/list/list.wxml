@@ -1,0 +1,30 @@
+<view class="list">
+  <view class="content" wx:for="{{ listPos1 }}" wx:key="*other" wx:for-index='idx'>
+    <view class='db'>
+      <view class="left bm">
+        <image src="{{basePic + item.logoUri}}"></image>
+      </view>
+      <view class="right db1">
+        <view class="top"><text class="title">{{ item.title }}</text></view>
+        <view class="middle"><text class="desc">{{ item.caption }}</text></view>
+        <view class="bottom db">
+          <view class="left db1">
+            <block wx:for="{{ item.tags }}" wx:key="*this" wx:for-item="list">
+              <text>{{list}}</text>
+            </block>
+          </view>
+
+          <view class="right db1 bm br" wx:if="{{ item.persons }}">{{ item.persons }}人已申请</view>
+        </view>
+      </view>
+    </view>
+    <block wx:if="{{ isLogin }}">
+      <button open-type='contact' session-from="pageKey=xykList&pos=ListPos1&index={{idx}}&phone={{phone}}" ></button>
+    </block>
+
+    <block wx:else>
+      <button bindtap='toLogin'></button>
+    </block>
+  </view>
+  
+</view>

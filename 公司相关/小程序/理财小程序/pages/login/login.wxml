@@ -1,0 +1,14 @@
+<view class="login">
+  <view class="content">
+    <view class="phone db layout bm">
+      <text class="left">手机号</text>
+      <input placeholder='11位手机号' bindinput='bindPhoneInput' type='number' class="db1" class='middle' />
+    </view>
+    <view class="code db layout bm">
+      <text class="left">验证码</text>
+      <input placeholder='注意查收短信' bindinput='bindCodeInput' type='number' class="middle" />
+      <text class="btn" bindtap='getCode' data-phone="{{phone}}">{{codeText}}</text>
+    </view>
+  </view>
+  <button hover-class="hover" data-phone="{{phone}}" data-code="{{code}}" bindtap='login'>登录</button>
+</view>

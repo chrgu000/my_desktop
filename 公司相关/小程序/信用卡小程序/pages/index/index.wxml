@@ -1,0 +1,73 @@
+<view class="index">
+
+  <!-- 今日推荐 -->
+  <view class="today-hot layout">
+    <view class="title db bm">
+      <icon></icon>
+      <text>今日推荐</text>
+    </view>
+    <view class="content db">
+      <view class="db1" wx:for="{{ pos1 }}" wx:key="*this">
+        <text>{{ item.title }}</text>
+        <text>{{ item.caption }}</text>
+        <image src="{{ basePic + item.logoUri}}"></image>
+        <button  bindtap='toList'></button>
+         <!-- <button  open-type="contact" session-from='page=index&=pos1&id={{ index }}'></button>  -->
+      </view>
+    </view>
+  </view> 
+
+  <!-- 热门银行  -->
+  <view class="hot-bank layout">
+    <view class="title bm">
+      <icon></icon>
+      <text>热门主题</text>
+    </view>
+    <view class="content">
+      <view class="" wx:for="{{ pos2 }}" wx:key="*this">
+        <image src='{{ basePic + item.logoUri }}'></image>
+        <text>{{ item.title }}</text>
+        <text>{{ item.caption }}</text>
+         <button  bindtap='toList'></button>
+        <!-- <button open-type="contact"></button> -->
+      </view>
+    </view>
+
+    <view class="more">
+      <view bindtap='toList'>查看更多</view>
+    </view>
+  </view>
+
+  <!--银行卡相关  -->
+  <!-- <view class="bank-relative">
+     <view wx:for="{{ indexInfo.pos3.content }}" wx:key="*this">
+      <image src="{{ item.src }}"></image>
+      <view>{{ item.title1 }}</view>
+       <button  bindtap='toList'></button>
+        <button open-type="contact"></button>  
+   </view> 
+  </view> -->
+  <!-- 主题精选  -->
+  <view class="theme layout">
+    <view class="title bm">
+      <icon></icon>
+      <text>主题精选</text>
+    </view>
+
+    <view class='content'>
+      <view class="db layout" wx:for="{{ pos4 }}" wx:key="*this">
+       <view class="left db1 bm">
+        <view>
+          <text>{{ item.title }}</text>
+          <text>{{ item.caption }}</text>
+        </view>
+       </view>
+       <view class="right db1">
+        <image src='{{ basePic + item.logoUri }}'></image>
+       </view>
+        <button  bindtap='toList'></button>
+       <!-- <button open-type="contact"></button> -->
+      </view>
+    </view>
+  </view>
+</view>

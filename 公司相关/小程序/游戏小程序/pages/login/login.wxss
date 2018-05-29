@@ -1,0 +1,43 @@
+/* pages/login/login.wxss */
+
+.login {
+
+  padding:58rpx;
+}
+.login .content .layout {
+
+  height:102rpx;
+  border-bottom: 2rpx solid #EEEEEE;
+}
+
+
+.login .content .layout .left{
+  width:130rpx;
+  margin-right: 50rpx;
+}
+
+button {
+  margin-top: 62rpx;
+  background: #577AF6;
+  color:#fff;
+}
+button.hover{
+  opacity: 0.6;
+}
+
+.login .content .code .middle {
+
+  width:330rpx;
+}
+.login .content .code .btn{
+  
+  font-size: 25rpx;
+  width:140rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  color:#fff;
+  background: #577AF6;
+  border-radius: 8rpx;
+  
+}

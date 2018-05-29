@@ -1,0 +1,26 @@
+select * from  loan_account WHERE userSid =(select id from user WHERE phone like '138%8914');  -- 账户
+select * from ci_cash_apply_info a WHERE user_id = (select id from user WHERE phone like '138%8914');-- 申请记录 
+SELECT * FROM loan  WHERE userSid = (select id from user WHERE phone like '138%8914') ORDER BY createdTime desc; -- 订单表
+SELECT * FROM loan_account_type;    -- 账户类型
+select * from user  WHERE name='王纯';   -- 用户表 
+select * from user_address where user_id =(select id from user WHERE phone like '138%8914');-- 用户地址
+select * from  loan_repaid where userSid=(select id from user WHERE phone like '138%8914');  -- 还款记录
+select * from loan_repaying where userSid=(select id from user WHERE phone like '138%8914') ORDER BY createdTime desc;-- 还款计划
+SELECT * FROM loan_product;   -- 产品类型
+select * from ci_apply_info where apply_type='0';
+select * from ci_installment_project where user_id=(select id from user WHERE phone like '138%8914');  
+select * from  ci_merchant;  -- 商户表
+select * from firm; -- 公司
+SELECT * FROM activity; -- 活动表
+select* from activity_user where user_id=(select id from user WHERE phone like '138%8914'); -- 用户活动表
+select  * from bank_card where user_id=(select id from user WHERE phone like '138%8914'); -- 银行卡 同一个type只能有一个status_bit = 1
+select * FROM sys_config; -- 系统配置表
+SELECT * FROM fund_payment_account;  -- 资金方优先级配置表
+SELECT * FROM fund_payment_account_daily_stat;  -- 账户每日限额记录表
+SELECT * FROM fund_account; -- 资金账户
+SELECT  * FROM user_weixin_info where user_id=(select id from user WHERE phone like '138%8914'); -- 绑定微信账号
+select * from  user_firm;
+SELECT * FROM risk_user_submit WHERE  user_id=(select id from user WHERE phone like '138%8914'); -- 每月提交申请次数
+select * from user_contact_info  WHERE  user_id=(select id from user WHERE phone like '138%8914'); -- 用户紧急联系人
+SELECT * FROM user_instuff_module WHERE user_sid = (select id from user where phone like '138%8914') -- 芝麻信用
+select * from message_info; -- 短信验证码

@@ -1,0 +1,193 @@
+/* pages/index/index.wxss */
+
+/*公共的样式  */
+button{
+  position: absolute;
+  top:0rpx;
+  right:0rpx;
+  bottom:0rpx;
+  left:0rpx;
+  opacity: 0;
+  
+}
+.index{
+  height: 100%;
+  background:rgba(243,243,243,1);
+ 
+}
+.index .layout{
+  margin-bottom: 18rpx;
+}
+.index .layout .title{
+  height: 80rpx;
+  background: #fff;
+  padding-left: 15px;
+  margin-bottom: 1px;
+}
+.index .layout .title icon{
+  
+  display: inline-block;
+  width:8rpx;
+  height:23rpx;
+  background: #577AF6;
+  vertical-align: middle;
+  margin-right: 7.5px;
+}
+.index .layout .title text{
+  vertical-align: middle;
+  font-size: 33rpx;
+}
+
+.index .layout .content{
+  background: #fff;
+  padding:25rpx 20rpx 34rpx 20rpx;
+}
+.index .layout .content > view{
+
+  position: relative;
+}
+.index .layout .content text {
+
+  display: block;
+  text-align: center
+}
+.index .layout .content view text:nth-of-type(1){
+
+    font-size: 29rpx;
+   
+}
+.index .layout .content view text:nth-of-type(2){
+
+  font-size: 25rpx;
+  color:#969696;
+  margin-top: 19rpx;
+}
+
+.index .layout .content view image{
+  width:177rpx;
+  height:112rpx;
+  margin:0 auto;
+  display: block;
+  margin-top: 18rpx;
+}
+
+
+/*热门银行  */
+.index .hot-bank .content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 2rpx;
+  
+}
+.index .hot-bank .content view {
+
+  width: 200rpx;
+  margin-bottom: 42rpx;
+}
+.index .hot-bank .content view image{
+
+  width: 72rpx;
+  height:72rpx;
+  border-radius: 50%;
+  margin-top: 0rpx;
+}
+.index .hot-bank .content view text:nth-of-type(1){
+
+   margin-top: 10rpx;
+
+}
+.index .hot-bank .content view text:nth-of-type(2){
+
+   margin-top: 10rpx;
+
+}
+.index .hot-bank .more{
+
+  height: 60rpx;
+  background: #fff;
+  margin-top: -42rpx;
+  border-top: 2rpx solid #F3F3F3;
+} 
+
+.index .hot-bank .more view{
+
+  
+  text-align: center;
+  line-height: 60rpx;
+  color:#577AF6;
+  font-size: 25rpx;
+}
+
+
+/* 银行卡相关区域 */
+.index .bank-relative{
+
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding:20rpx 0rpx;
+  margin-bottom: 18rpx;
+  position: relative;
+}
+
+.index  .bank-relative view image{
+  width:80rpx;
+  height:80rpx;
+  display: block;
+  margin:0 auto;
+}
+
+.index  .bank-relative view view{
+  font-size: 25rpx;
+  margin-top: 20px;
+}
+
+/*主题精选  */
+.index .theme .title{
+  border-bottom: 2rpx solid #F3F3F3;
+}
+.index .theme .content{
+  padding: 0rpx;
+}
+ .index .theme .content {
+
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+
+  .index .theme .content .layout{
+
+     border-bottom: 2rpx solid #F3F3F3;
+     padding:24rpx 25rpx 22rpx 30rpx; 
+     width: 375rpx;
+   }
+
+.index .theme .content .layout:nth-of-type(odd){
+
+  border-right:1px solid #F3F3F3;
+}
+
+.index .theme .content .layout {
+
+  margin-bottom: 0px;
+}
+
+.index .theme .content .layout image{
+
+   width: 85rpx;
+   height: 85rpx;
+ }
+.index .theme .content .layout:nth-last-child(1){
+
+  border-bottom: 0px;
+}
+.index .theme .content .layout:nth-last-child(2){
+
+  border-bottom: 0px;
+}
+
+

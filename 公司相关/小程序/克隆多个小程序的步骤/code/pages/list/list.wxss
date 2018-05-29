@@ -1,0 +1,58 @@
+/* pages/list/list.wxss */
+.list {
+
+    background:rgba(243,243,243,1);
+    height: 100%;
+}
+.list .content {
+  background: #fff;
+  border-bottom: 1px solid rgba(243,243,243,1);
+  padding:45rpx 35rpx;
+  position: relative;
+}
+.list .content .left{
+
+  margin-right: 20rpx;
+}
+.list .content .left image {
+
+  width:176rpx;
+  height:116rpx;
+}
+.list .content .right .top text{
+
+  font-size: 32rpx;
+  color:#313113;
+}
+.list .content .right .middle text{
+
+  font-size: 25rpx;
+  color:#969696;
+}
+ .list .content .right .bottom .left text {
+
+  font-size: 21rpx;
+  color:#577AF6;
+  border: 1px solid #577AF6;
+  padding:5rpx 15rpx;
+  border-radius: 10rpx;
+  
+} 
+.list .content .right .bottom .left text{
+
+  margin-right: 20rpx;
+}
+.list .content .right .bottom .right{
+
+  font-size: 21rpx;
+  color:#969696;
+}
+.list .content button {
+
+  position: absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  opacity: 0;
+}

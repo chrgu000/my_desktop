@@ -1,0 +1,396 @@
+2018年最受欢迎的数字宠物莱特鸡，现已正式启动，现在注册即有机会参与价值0.2莱特币的免费仔鸡领取活动。全新模式，玩法新颖，收益更高。 加入QQ群：723717116 了解更多。https://www.ltchick.com/?invite=flxpnv
+
+## 学员资料：https://www.linuxprobe.com/vip页面密码L8QwJKZxx61
+
+阿里云账号
+    登录地址: https://signin.aliyun.com/credan/login.htm
+    账号: credandark@credan
+    密码: credandark
+
+
+#珠峰源代码位置
+仓库地址: https://gitee.com/zhufengpeixun/201812
+账号: 3028213607@qq.com
+密码: zf1234567
+
+## app下载地址
+https://app1.credan.com/recycling/pages/aiguigou-download.html
+
+//该域名是备案的，在微信里面可以直接打开；打开时候下载ios的时候，下载manifest.plist文件的时候，必须是https协议
+http://www.wangluodaikuankouzi.com/recycling/pages/aiguigou-download.html 
+
+## h5访问地址
+http://www.wangluodaikuankouzi.com/recycling/pages/select-product.html
+
+## ejt下载地址
+http://app.ruile.co/appguide/pages/download.html?channelId=2
+
+#代练项目测试服务器 账号: 47.96.12.218
+                密码: Credan!88
+
+#npm网站  账号: mzrui
+         密码: mzradmin!888
+
+##微信公众号
+    账号: 2271473503@qq.com
+    密码: Credan!888
+
+##talkingdata统计
+    账号: dark.miao@credan.com
+    密码: Credan!888
+
+
+##·11linux培训 时间为每周五，周六，周日晚上七点开始
+    yy频道: 58722971
+    密码: linux71cprex4 
+
+公司wifi密码: Credan!88
+
+邮箱: https://exmail.qq.com
+	账号: dark.miao@credan.com
+	密码: 常用密码，首字母大写
+
+公司github账号: Cmiaozhirui
+	密码: 常用秘密
+
+teambition 账号: dark.miao@credan.com
+	密码: 常用密码
+
+公司github 账号: dark.miao@credan.com
+    密码: 常用密码
+
+极光推送 网址: https://www.jiguang.cn
+    账号: Dev@credan.com
+    密码: Credan!88 
+
+    cordova plugin add jpush-phonegap-plugin --variable APP_KEY=923d3a1be6fae34804d6bd68
+
+珠峰前端高级课程
+    网址: http://www.html5train.com/login.do?fromurl=http://www.html5train.com/account/myCourseRedirect/
+    账号: 13913169273
+    密码: admin888
+
+小程序
+1. a1@credan.com.cn Credan!88
+2. a3@credan.com.cn Credan!88
+
+公司ios开发者 网址:https://developer.apple.com/
+
+    账号: linn.zhou@live.com
+    密码: Soleil4u88
+
+极光推送: 账号: 1078142728@qq.com
+        密码: admin888
+
+晓多客服: 账号: 13641917752
+        密码: 507508
+
+正式服务器: 账号: ssh root@118.190.68.17
+          密码: X1baiyi$nuli
+
+百度统计: 
+        账号: 139131691273
+        密码: Credan888
+        手机号: 13913169273
+
+域名: http://www1.wangluodaikuankouzi.com/
+    ip 118.190.68.17
+
+服务器密码: 
+    47.96.17.248/root/Credan!88
+
+https://coding.net
+    账号:darkmc
+    密码:mzradmin888
+
+码云: 账号: 1078142728@qq.com
+    密码: mzr***888
+
+http://www.html5train.com/
+    账号: 13913169273
+    密码: mzr***888
+
+小程序 1 
+    账号: ti688133688@163.com
+    密码: credan88
+    消息推送配置: http://wxapp.credan.com/wxapp
+    token: credan88
+    encodingAESKey: aNAM5rYdod8MqaB5OPBpsKb1zinMcADg3abFTawvVlV
+    appId: wx2e6e0cee84b08e4c
+    appSecret: 36c5c4c40f685cccf17beba80be31c24
+
+小程序 2
+    账号: 3441975372@qq.com
+    密码: Credan222
+    appId:  appId: wx1779b0487343038c
+    appSecret: 6d84a74a2aef04c8c2caf86f728ca1cf
+
+妙味课堂: 账号: miaozhirui
+        密码: mzradmin888
+
+万能推荐位的管理后台
+        网址: http://118.190.67.132:8030/admin/index.xhtml
+        账号/密码: admin/credan888
+        
+
+蒲公英
+ios的ipa包生成二维码让开发者用户扫描下载
+        网址: https://www.pgyer.com
+        账号: 13913169273
+        密码: 普通网站的登录密码
+        手机号: 13913169273
+
+自己的小程序:
+    账号: miaozhirui888@126.com
+    密码: 常用密码
+
+
+47.96.17.248 mongo账号
+
+db.createUser({user:'credan', pwd:'Credan!88', roles:[{role: 'userAdminAnyDatabase', db:'admin'}]})
+
+
+添加小程序的后台
+    网址: http://wxapp.credan.com/login
+    账号: Credan
+    密码: Credan!885
+
+ios开发者账者相关
+    企业账号
+        邓白氏编码: D-U-N-S Number: 544500604
+
+        邮箱: 469983827@qq.com Credan!88
+
+        appid
+            密钥: what was the first thing you learned to cook (蛋炒饭)
+                 what is your dream job (开发)
+
+        cto: wenjing xie  
+
+自己的邮箱企业开发者账号
+    邮箱:
+        昵称:kuaileda
+        密码: Credan!888
+        账号: 2271473503@qq.com
+    appleid:
+        昵称: 2271473503@qq.com
+        密码: Credan!88
+
+
+################## 睿乐公司苹果企业开发者账号的申请 ###########
+
+邮箱: 2271473503@qq.com
+密码: Credan!88
+邓白氏码: 544594355
+cto: xie wenjing
+手机号: 13482591797
+
+公司因为名称: Luan Farce Le Enterprise Management Co., Ltd
+
+##########申请公司邓白氏步骤
+一、填写申请表单
+    1. 公司信息
+    Country 国家选择
+    Legal Entity Name 法人实体名称
+    Street Address 街道地址
+    Town/city    城市
+    State/Province 省
+    Postal Code  邮编
+    Phone Number 联系电话
+
+    2. 联系人信息 (一般填写的是老板的信息，需要注意的是华夏邓白氏后续会给贵公司发送确认邮箱以及邓白氏编码都会发到workEmail这个邮箱里)
+    Given Name 名字
+    Family Name 姓
+    workPhone Number 电话
+    WorkEmail  与华夏邓白氏交流的邮箱
+
+    ps: 信息填写完毕点击提交即可
+
+二、回复邓白氏确认邮件里面需要填写的信息
+    公司名称
+    办公地址(中和英，实际上班地址)
+    邮编
+    企业性质
+    公司有无英文简称
+    有分公司办事处吗
+    公司的主营业务(一个最主要的)
+    员工总数，联系人姓名(一个),电话及职位(最好是坐机，分机和手机)
+    营业执照的照片
+
+
+三、需要的所有的资料总和
+
+法人实体名称
+街道地址
+城市
+省
+邮编
+联系电话
+企业性质
+公司有无英文简称
+有分公司办事处吗
+公司的主营业务(一个最主要的)
+员工总数，联系人姓名(一个),电话及职位(最好是坐机，分机和手机)
+营业执照的照片
+
+四、回复邓白氏需要的资料
+
+1.提供公司清晰的证件照片（a. 营业执照正本原件实物照片或营业执照副本原件实物照片 b.公章实物底部照片）(两者缺一不可)
+2.公司中文名称:六安睿乐企业管理有限公司
+
+英文名（如无正式的英文名按字面翻译）:Luan farce le enterprise management co., LTD
+
+3.中文办公地址：六安市格安区文汇大厦22楼16，18，20，22号
+
+英文办公地址：No.16-18-20-22,22F,Wenhui Building,Gean Dist.,Luan
+
+4.邮编：237000
+
+5.企业类型：有限责任公司
+
+6.是否是独立企业（公司有无分公司或办事处，只需填有或无）:有
+
+7.公司英文简称或英文商标（如果没有可以填无）：无
+
+8.主营业务（一个最主要的业务）：接受银行、金融机构、电信部分委托从事商业账款催收咨询服务
+
+9.员工人数： 600人
+
+10.苹果联系人姓名（务必填写申请公司的苹果项目联系人）：
+
+姓名：谢文静
+
+性别：男
+
+职务：cto
+
+电话（公司座机和联系人手机，所提供座机和办公地址保持一致）：
+联系人手机号: 13482591797
+座机: 021-64263122
+
+
+
+
+####### 宝塔相关信息 ##########
+Bt-Panel: http://60.205.231.190:8888
+username: admin
+password: 1f18ec4f
+
+
+FTP账号资料
+
+用户：test_miaozhirui
+
+密码：SBK3TcRCf6KxmFhX
+
+只要将网站上传至以上FTP即可访问!
+
+数据库账号资料
+
+数据库名：test_miaozhirui
+
+用户：test_miaozhirui
+
+密码：RX4fB2kQ6wDNbkaP
+
+
+
+
+#################### python #####################
+
+区块链课程——Python视频入门（选修部分）视频课件下载地址：
+
+Python环境搭建下载 链接：https://pan.baidu.com/s/1tUrkHlmDWZ6TLDL3M12W6A 密码：d7k2
+
+python基础链接：https://pan.baidu.com/s/1nxghHrj 密码：jt1j
+
+python爬虫链接：https://pan.baidu.com/s/18nS7zI4lv1YV1glvh2gJWQ 密码：ugnf
+
+
+
+################  国外服务器 ##################
+域名: https://cart.godaddy.com 
+用户名: warren.wu@credan.com 
+密码: Credan!88
+切换到root用户: su
+         密码: Credan!88
+
+## 服务器
+服务器名称ip: 166.62.85.61
+用户名 klddd
+密码 Credan!88
+
+###### 宝塔面板 ######
+Bt-Panel: http://166.62.85.61:8888
+username: credan
+password: Credan88
+
+############### bice123.com域名############
+
+FTP账号资料
+
+用户：bice123_com
+
+密码：6cBECkMj2dSExsKK
+
+只要将网站上传至以上FTP即可访问!
+
+数据库账号资料
+
+数据库名：bice123_com
+
+用户：bice123_com
+
+密码：riZA7TZM6Ry24YB7
+
+############ 23455432.com域名############
+FTP账号资料
+用户：sql23455432_com
+
+密码：GhkdiHQXbisaWpy4
+
+############# cms测试环境 ###################
+1. 服务器地址
+    60.205.231.190/Credan!888
+    
+2. 面板
+    
+
+##appleId更改
+appleId: miaozhirui@gmail.com
+Credan!6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

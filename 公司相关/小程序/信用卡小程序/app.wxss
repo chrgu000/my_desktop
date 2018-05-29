@@ -1,0 +1,36 @@
+/**app.wxss**/
+.db{
+  display: -webkit-box;
+}
+.db1{
+
+    -webkit-box-flex: 1;
+}
+
+.bm{
+  display: flex;
+  align-items: center;
+
+}
+
+.bc{
+  display: flex;
+  justify-content: center;
+}
+
+.br{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fc{
+  flex-direction: column;
+}
+
+page{
+  height: 100%;
+}
+
+view{
+  box-sizing: border-box;
+}

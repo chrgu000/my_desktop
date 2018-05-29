@@ -1,0 +1,239 @@
+=============frame, center, bounds, transform ==========
+frame 既可以改变大小也可以改变位置
+center 只可以改变位置
+bounds 只可以改变大小，x,y永远永远是0
+结构体是不能直接修改的
+========================================================
+
+id json = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
+
+
+NSString *string = @"123";
+
+// 1.字符串转int
+int intString = [string intValue];
+
+// 2.int装字符串
+NSString *stringInt = [NSString stringWithFormat:@"%d",intString];
+
+// 3.字符串转float
+float floatString = [string floatValue];
+
+// 4.float转字符串
+NSString *stringFloat = [NSString stringWithFormat:@"%f",floatString];
+
+==================UIOther===================
+-(void)switchAction{
+    
+    UISwitch *mswitch = [[UISwitch alloc]initWithFrame:CGRectMake(20, 200, 50, 25)];
+    [mswitch addTarget:self action:@selector(mswitchAction:) forControlEvents:UIControlEventValueChanged];
+    [self.view addSubview:mswitch];
+}
+
+-(void)mswitchAction:(UISwitch *)sender{
+    
+    NSLog(@"value=%d", [sender isOn]);
+}
+
+
+-(void)sliderView{
+    
+    UISlider *slider = [[UISlider alloc]initWithFrame:CGRectMake(20, 100, self.view.frame.size.width-40, 20)];
+    
+    slider.minimumValue = 0.0;
+    slider.maximumValue = 100.0;
+    slider.value = 50.0;
+//    slider.continuous = true;
+    slider.continuous = YES;
+    [slider addTarget:self action:@selector(sliderAction:) forControlEvents:UIControlEventValueChanged];
+    
+    [self.view addSubview:slider];
+}
+
+-(void)dataPicker{
+    
+    UIDatePicker *datePicker = [[UIDatePicker alloc]initWithFrame:CGRectMake(0, 260, 300, 200)];
+    
+    datePicker.datePickerMode = UIDatePickerModeDate;
+    [datePicker addTarget:self action:@selector(dataPickerAction:) forControlEvents:UIControlEventValueChanged];
+    [self.view addSubview:datePicker];
+}
+
+-(void)dataPickerAction:(UIDatePicker *)datePicker{
+    
+    NSLog(@"%@", [datePicker date]);
+}
+
+
+
+===================UIActionSheet=============
+-(void)actionSheet1{
+    
+    UIActionSheet *actionSheet = [[UIActionSheet alloc]initWithTitle:@"action" delegate:self cancelButtonTitle:@"cancel" destructiveButtonTitle:@"ok" otherButtonTitles:@"1",@"2",@"3", nil];
+    
+    [actionSheet showInView:self.view];
+}
+
+-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
+
+    NSLog(@"index=%ld", buttonIndex);
+}
+
+
+===================UIAlertView=============
+initWithTitle:@"alert" message:@"message" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"ok",@"ok1", nil]
+
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+
+-(void)alertView {
+    
+    UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"alert" message:@"title" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"ok", nil];
+    alertView.alertViewStyle = UIAlertViewStylePlainTextInput;//放入可填写的内容
+    UITextField *textfield = [alertView textFieldAtIndex:0];//拿到textfield
+    textfield.keyboardType = UIKeyboardTypeNumberPad;//将textfield设置为数字键盘
+    
+    [alertView show];
+}
+
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+
+    NSLog(@"index=%ld", buttonIndex);
+    
+    if(buttonIndex == 1){
+        
+        UITextField * textfield = [alertView textFieldAtIndex:0];//拿到textfield
+        NSLog(@"textfield= %@", textfield.text);
+    }
+}
+
+#pragma mark --Action Sheet
+
+===================UITextfield=============
+borderStyle
+textColor
+font
+placeholder
+keyboardType
+returnKeyType
+
+UITextField *textfield = [[UITextField alloc]initWithFrame:CGRectMake(20, 100, 100, 50)];
+textfield.borderStyle = UITextBorderStyleLine;//边框
+textfield.textColor = [UIColor redColor];//文本颜色
+textfield.font = [UIFont systemFontOfSize:17.0];//系统默认字体
+textfield.placeholder = @"请输入姓名";//提示
+
+textfield.keyboardType = UIKeyboardTypeDefault;
+textfield.returnKeyType = UIReturnKeyGo;
+[self.view addSubview:textfield];
+
+
+
+-(void)textfield2 {
+    
+    UITextField *textfield2 = [[UITextField alloc]initWithFrame:CGRectMake(20, 150, 240, 50)];
+    textfield2.borderStyle = UITextBorderStyleRoundedRect;
+    textfield2.layer.borderColor = [UIColor redColor].CGColor;
+    textfield2.layer.borderWidth = 2.0;
+    textfield2.layer.cornerRadius = 10.0;
+    textfield2.keyboardType = UIKeyboardTypeDefault;
+    textfield2.returnKeyType = UIReturnKeyGo;
+    textfield2.clearButtonMode = UITextFieldViewModeWhileEditing;
+    textfield2.tag = 100;
+    
+    
+    textfield2.delegate = self;
+    [self.view addSubview:textfield2];
+}
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+  
+    NSLog(@"text=%@,tag=%ld", textField.text, textField.tag);//拿到内容
+    return true;
+}
+
+自定义textfield步骤:
+1.子类-> 2.init-> 3. 内容->4调用
+
+[textfield1 resignFirstReponder];
+
+
+
+
+titleRectForContentRect
+imageRectForContentRect
+self.titleLabel.contentMode
+self.imageView.contentMode
+self.layer.borderColor
+UINavigationBar 导航条
+UITableView 表格
+UIScrollview(滚动的控件)
+UIAlertView 对话框(中间弹窗)
+UIImageView图片
+UITextField 文本输入框
+UILabel  文本标签
+UIButton 按钮
+buttonWithType
+UIControlEventTouchDown
+UIControlEventTouchUpInside
+UIControlStateNormal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xcode
+CMD+B build
+CMD+R build + run
+
+模拟器
+CMD+12345
+CMD+shift+H: HOME
+CMD+L: lock
+
+打开已经存在的工程: 1. 文件， 2 xcode
+
+文件类型: .m .h m:oc内容实现  h:方法介绍
+
+文件体: 头，内容
+
+字符串=@"" +内容
+
+导入内容的方式<>或者""
+    区别<系统的类库> "自定义的内库"
+
+@property(nonatomic, assign) int age;//定义整型，布尔用assign修饰
+@property(nonatomic, copy)NSString *name//定义字符串用copy修饰
+
+===========九宫格坐标计算步骤
+1. 确定每个app的宽和高
+2. 计算marginX, marginY, marginTop
+3. 计算每个app所在的行索引，列索引
+4. 根据当前app的行和列索引计算appX和appY

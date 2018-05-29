@@ -1,0 +1,188 @@
+线下c2c项目上传: scp -r /Users/mzr/credan/credan_h5_c2c/www/xianxia/** root@118.190.68.17:/usr/local/tomcat/war/credan_h5/xianxia
+
+
+
+scp -r www/** root@47.96.8.95:/usr/share/nginx/html/demo/c2c/1.0.0
+
+scp -r /Users/mzr/credan_app_hybrid/www/** root@118.190.60.163:/usr/local/tomcat/war/credan_app/web/
+
+186 1062 1301
+
+13426421951
+
+15711055034
+
+
+
+scp -r /Users/mzr/credan_app_hybrid/www/** root@118.190.60.163:/usr/local/tomcat/war/credan_app/web
+
+cordova emulate ios --target iPhone-6s
+
+# sudo lsof -i :80 mac系统查看80端口被谁给占用了
+# ps -ef | grep nginx 查看某个软件是否启动
+
+scp /Users/mzr/Desktop/bg1.jpg root@118.190.68.17:/usr/local/tomcat/war/credan_h5/cs/images/bg1.jpg
+
+
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxc856e3a1bddd7a8e&redirect_uri=http://uctest.credan.com/cs/account/index.html&response_type=code&scope=snsapi_userinfo&#wechat_redirect
+
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxa3ffa0ee90690f42&redirect_uri=https://app.credan.com/cs/account/index.html&response_type=code&scope=snsapi_userinfo&#wechat_redirect
+
+
+/usr/local/tomcat/war/credan_app;
+
+scp -r /Users/mzr/credan/credan_saas_chaoshi/dist/other/ root@118.190.60.163:/usr/local/tomcat/war/credan_app/cs/
+scp -r /Users/mzr/credan/credan_saas_chaoshi/dist/account/ root@118.190.60.163:/usr/local/tomcat/war/credan_app/cs/
+Credan!88
+
+
+scp /Users/mzr/credan/credan_saas_chaoshi/app/paywithqfpay.html root@118.190.60.163:/usr/local/tomcat/war/credan_app/cs/account/paywithqfpay.html
+
+scp /home/administrator/news.txt root@192.168.6.129:/etc/squid将本地服务器的文件拉下来
+
+scp remote@www.abc.com:/usr/local/sin.sh /home/administrator将远程服务器的文件拉下来
+
+8723
+静态网站
+browser-sync start —server —files ‘css/*.css’
+//动态网站
+browser-sync start —proxy ‘主机名’ ‘css/*.css’
+
+pcretest
+
+ab -n 50 -c 20 http://www.miaozhirui.com 
+	-n代表同时的请求书，-c代表并发数
+
+一、./sunny clientid ecc6924aa7b95f1d
+
+二、个人中心配置请求地址
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx743dd8669981aeb2&redirect_uri=http://app.credan.com/wx/home&response_type=code&scope=snsapi_userinfo&#wechat_redirect
+
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx743dd8669981aeb2&redirect_uri=http://uctest/wx/home&response_type=code&scope=snsapi_userinfo&#wechat_redirect
+
+
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxa3ffa0ee90690f42&redirect_uri=http://app.credan.com/cs/account/home&response_type=code&scope=snsapi_userinfo&#wechat_redirect
+
+闪电贷
+	额度小，
+及时雨
+	可以选择额度600-3000,可分期
+现金分期
+	可以选择额度600-3000,不可分期
+
+
+钞好用:
+	进件: uctest.credan.com/v1.5.1/?merchantId=18fd13cc9aa611e6afb66c92bf314c17&invitCode=000000&selectPd=0&End 
+
+钞市:
+	进件: http://uctest.credan.com/chao-city/?merchantId=18fd13cc9aa611e6afb66c92bf314c17&invitCode=000000&selectPd=0&End
+
+
+
+一、github提交代码的时候，有的时候用户名不是我们希望的用户名，可以修改
+1. 查看当前用户是谁
+	git log 可以查看每次提交代码的用户是谁
+	vim ~/.gitconfig 也可以通过这种方式查看
+2. 修改用户名
+	git config --global user.name "Cmiaozhirui" 修改用户名
+	git config --global user.email "dark.miao@credan.com"修改邮箱
+
+
+二、将本地的服务映射到外网去
+	browser-sync start --server --files "**"
+
+三、借款钞市访问路径
+
+	http://localhost:3000/?merchantId=18fd13cc9aa611e6afb66c92bf314c17&invitCode=000000&selectPd=0&hdId=10002&flashId=00000&channelId=11&End&channelUid=XXXX#selectPD
+
+四、git stash apply stash@{1}
+
+五、npm script接受参数是通过-- (npm run dev --project md)
+
+六、node获取地址栏参数
+	var argv = require('yargs').argv;
+
+	console.log('hello ', argv.n);
+	console.log(argv._);
+
+七、webpack定义全局变量
+	new webpack.DefinePlugin({
+
+		PROJECT: PROJECT
+	})
+
+八、webpack output 里面的配置
+		path: 告诉webpack将内容打包到那个目录下面
+		publicname: 对最终打包到css里面和html里面的url进行重定向
+
+
+九、a连接需要延迟的统计事件
+	onclick="return onAddClick('暖薪贷', this)"
+	
+
+十、基于钞好用配置不同的项目
+
+魔贷
+https://app.credan.com/chao-city/?merchantId=18fd13cc9aa611e6afb66c92bf314c17&invitCode=000000&selectPd=1&flashId=101&End
+
+如果需要换不同的项目，更改flashId就行了
+魔贷 101
+五斗米 102
+柚钱花 103
+爱多贷 104
+
+
+
+git init
+git checkout -b local-branchname origin/remote_branchname
+git clone /path/to/repository
+git clone username@host:/path/to/repository
+git add <filename>
+git add *
+git commit -m "代码提交信息"
+git push origin master
+git remote add origin <server>
+git checkout -b feature_x
+git checkout master
+git branch -d feature_x
+git push origin <branch>
+git pull
+git merge <branch>
+git add <filename>
+git diff <source_branch> <target_branch>
+git tag 1.0.0 1b2e1d63ff
+git log
+git log --author=bob
+git log --pretty=oneline
+git log --graph --oneline --decorate --all
+git log --name-status
+git log --help
+git checkout -- <filename>
+git fetch origin
+git reset --hard origin/master
+
+git revert HEAD
+git commit --amend -m "Add an author/email comment"
+git mv hello.rb lib
+
+git 回退到历史的某个版本
+git reset --hard 139dcfaa558e3276b30b6b2e5cbbb9c00bbdca96  
+git push -f origin master 强制推到远程origin仓库
+执行以上两个命令，sourcetree就没有了最新的commit提交了
+
+想再找回以前的代码
+git reflog//如果远程commit提交全部被删除的话，这个时候用git reflog可以查看本地的commit提交，再执行相应的操作进行回滚
+
+git push -u origin master 如果当前分支与多个主机存在追踪关系，则可以使用 -u 参数指定一个默认主机，这样后面就可以不加任何参数使用git push，
+
+
+
+
+
+
+
+
+
+
+
+
